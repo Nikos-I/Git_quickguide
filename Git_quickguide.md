@@ -177,9 +177,18 @@ Initialized empty Git repository in /home/user/Desktop/git_exercise/.git/
 
 Список всех веток в репозитории 
 
+`git branch dev`
+
+Создание ветки dev от текущего коммита
+
 `git checkout -b dev 1fa3afc`
 
-Создание ветки dev на основе коммита 1fa3afc
+Создание ветки dev на основе коммита 1fa3afc и переключение на него
+
+`git checkout dev`
+
+Переключение на ветку dev
+
 
 ## Слияние веток и разрешение конфликтов
 
